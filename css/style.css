@@ -1,0 +1,83 @@
+.car{
+    width: 250px;
+}
+
+.carDiv{
+    width: 250px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 25px;
+    cursor: pointer;
+}
+
+
+.carDiv:hover{
+    box-shadow: 5px 5px 10px red;
+}
+
+
+.mainSec{
+    display: flex;
+}
+
+
+#desc{
+color: gray;
+}
+
+#desc2{
+    color: gray;
+}
+
+#desc3{
+    color: gray;
+    
+}
+
+.image{
+    width: 300px;
+}
+
+
+#shopNow{
+    background-color: red;   
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.navbar1{
+    height: 50px;
+    background-color: red;
+}
+
+.navbar2{
+    height: 50px;
+    background-color: black;
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+
+.moreSec1{
+    height: 100vh;
+    width: 100%;
+}
+
+.moreSec2{
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.payments img{
+    height: 50px;
+}
+
+
+.payments{
+    display: none;
+}

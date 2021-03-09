@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- Section 1 -->
+
+<section class="moreSec1" id="moreSec1">
+    <img class="image" id="image" alt="">
+    <h1 id="model"></h1>
+    <h2 id="price"></h2>
+    <p id="yom"></p>
+    <p id="desc"></p>
+
+
+    <label for="">Select quantity</label>
+    <select name="" id="selectQuantity">
+        <option value=""> </option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+   <h1 id="totalPrice"></h1>
+
+   <button id="shopNow">Shop Now</button>
+</section> 
+
+
+<!-- Section 2 -->
+
+<section class="moreSec2" id="moreSec2">
+
+    <h1>Check out:</h1>
+
+    <p id="subTotalPrice"></p>
+    <p id="yourTotalQty"></p>
+
+
+
+    <h1>Delivery Address</h1>
+    <label for="">Choose your delivery location</label>
+
+    <select name="" id="deliveryAddress">
+        <option value="Nairobi">Nairobi</option>
+        <option value="Nakuru">Nakuru</option>
+        <option value="Mombasa">Mombasa</option>
+    </select>
+
+
+    <p id="DeliveryFee"></p>
+    <p id="grandTotal"></p>
+
+    <h3>Tax: 14%</h3>
+
+    <h1 id="finalTotal"></h1>
+
+    <h1>Enter your details</h1>
+
+    <input type="text" name="" placeholder="Enter your Full Name" id="fullName"> <br> <br>
+    <input type="text" placeholder="enter your email"> <br> <br>
+    <input type="text" placeholder="Enter your phone number"> <br> <br>
+
+    <button id="btnCheckOut">Checkout</button>
+
+    <div class="theCheckOutDiv">
+
+        <p id="checkOutMsg"></p>
+        
+        <div class="payments" id="payments">
+            <img src="images/stripe.png" id="stripe" alt=""> <br> <br>
+            <img src="images/paypal.png" id="payPal" alt=""> <br> <br>
+            <img src="images/mpesa.png" id="mPesa" alt="">
+        </div>
+    </div>
+
+
+
+</section>
+    
+
+
+    <script src="js/viewmore.js"></script>
+</body>
+</html>
